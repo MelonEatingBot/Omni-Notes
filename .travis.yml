@@ -4,10 +4,8 @@ dist: trusty
 install: true
 addons:
   sonarcloud:
-    organization: MelonEatingBot
-    token: $SONAR_TOKEN
-    branches:
-    - develop
+    organization: "meloneatingbot"
+    token: "bgc1FB2pdfdGFAlHTK8Dqymu092U9QQ4QJCF469wI8Y9BkiJm1IZJzpGnCLuZJRHv4fS/itOdIxh/IvpyE+BWvPp3WwVgeFuAWJ3V7RzDY4NOGBSXs5NtOqgBm70H7kYFvFSeQ9r7knyJPbQDwjyxzvkqC8qOKwt6d4GRTbLCQorJURG3R/z38wlgERlRj+MPDnXDkcye8UJkMcdbT62bC5bBjRxh4MzFWjUxXT/b8Acj/Vfw17sFojp9L3/OIC+X1dHBw5KBuzcHgqEdFF70NZNaKQ+P7SE1Q3MpfU/8/1cuC6NlCDsqVKJ0zZw+FAUuV25Cv1bIvtwaJ0BUf+FHjtejHPayg1GA2jLCh+HnPm7fPBddsZoUNNaonQDn+45llORLV3QnfDnYd2jUv6k121CnOlqF4xe71rMslH/H5+n08vBGuKN2S+Le4+1SmjNCPwJyk6UE925AtICfPsd8pLNu8YVJ21u/8Kjg/F+I2OdIQLS+dJ17UUuMiherdLYdPfykqOoVIm2f5QhapVMov3olhwb9rpwmmSV2UnaSVEXe76OeOqMsahri1W6noxNZsbCYUFcrBsIKNlRCkLHx78Cou9QEvDZ+dx1s0eu8NaxU3pwhL8GtjvW1OW8G2rayOPwIls3ES75QgAA0/02vZaXPMcpXsjew6Az5soDois="
 jdk:
 - oraclejdk8
 android:
