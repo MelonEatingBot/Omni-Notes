@@ -4,7 +4,7 @@ dist: trusty
 install: true
 addons:
   sonarcloud:
-    organization: federicoiosue-github
+    organization: MelonEatingBot
     token: $SONAR_TOKEN
     branches:
     - develop
