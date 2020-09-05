@@ -44,7 +44,8 @@ apply plugin: 'org.sonarqube'
 sonarqube {
     properties {
         property "sonar.projectName", "Omni Notes"
-        property "sonar.projectKey", "omni-notes"
+        property "sonar.projectKey", "MelonEatingBot_Omni-Notes"
+        property "sonar.organization", "meloneatingbot"
         property 'sonar.projectVersion', project.VERSION_NAME
         property "sonar.host.url", "https://sonarcloud.io"
         property 'sonar.sourceEncoding', 'UTF-8'
