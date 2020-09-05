@@ -10,13 +10,6 @@ addons:
     - develop
 jdk:
 - oraclejdk8
-branches:
-  only:
-  - develop
-  - master
-  - /^feature/.*$/
-  - /^hotfix/.*$/
-  - /^release/.*$/
 android:
   components:
   - tools
